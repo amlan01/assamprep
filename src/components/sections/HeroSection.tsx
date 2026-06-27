@@ -5,18 +5,18 @@ import { Card, CardContent } from '@/components/ui/Card';
 import { CheckCircle, PlayCircle, BookMarked, Globe, Landmark, TrendingUp, Cpu, Leaf, BrainCircuit, Calculator, Languages, History, Map, Users } from 'lucide-react';
 
 const subjects = [
-  { name: 'Assam History', icon: History, tests: '45 Topic Tests' },
-  { name: 'Assam Geography', icon: Map, tests: '30 Topic Tests' },
-  { name: 'Art & Culture', icon: Users, tests: '25 Topic Tests' },
-  { name: 'Indian Polity', icon: Landmark, tests: '50 Topic Tests' },
-  { name: 'History', icon: BookMarked, tests: '60 Topic Tests' },
-  { name: 'Geography', icon: Globe, tests: '55 Topic Tests' },
-  { name: 'Economy', icon: TrendingUp, tests: '40 Topic Tests' },
-  { name: 'Science', icon: Cpu, tests: '65 Topic Tests' },
-  { name: 'Environment', icon: Leaf, tests: '35 Topic Tests' },
-  { name: 'Reasoning', icon: BrainCircuit, tests: '80 Topic Tests' },
-  { name: 'Mathematics', icon: Calculator, tests: '75 Topic Tests' },
-  { name: 'English', icon: Languages, tests: '70 Topic Tests' },
+  { name: 'Assam History', icon: History, tests: '10 Topic Tests' },
+  { name: 'Assam Geography', icon: Map, tests: '7 Topic Tests' },
+  { name: 'Art & Culture', icon: Users, tests: '4 Topic Tests' },
+  { name: 'Indian Polity', icon: Landmark, tests: '6 Topic Tests' },
+  { name: 'History', icon: BookMarked, tests: '20 Topic Tests' },
+  { name: 'Geography', icon: Globe, tests: '3 Topic Tests' },
+  { name: 'Economy', icon: TrendingUp, tests: '8 Topic Tests' },
+  { name: 'Science', icon: Cpu, tests: '5 Topic Tests' },
+  { name: 'Environment', icon: Leaf, tests: '7 Topic Tests' },
+  { name: 'Reasoning', icon: BrainCircuit, tests: 'coming soon' },
+  { name: 'Mathematics', icon: Calculator, tests: 'coming soon' },
+  { name: 'English', icon: Languages, tests: 'coming soon' },
 ];
 
 export function HeroSection() {
@@ -48,7 +48,7 @@ export function HeroSection() {
             </h1>
             
             <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto lg:mx-0">
-              The most comprehensive mock test platform designed specifically for aspirants of APSC, ADRE, Assam Police, and other state recruitment exams.
+              The most comprehensive mock test platform designed specifically for aspirants of APSC, ADRE, Assam Police and other state recruitment exams.
             </p>
             
             <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4">
@@ -64,7 +64,7 @@ export function HeroSection() {
             <div className="flex flex-wrap items-center justify-center lg:justify-start gap-y-3 gap-x-6 pt-6 text-sm font-medium text-slate-600 dark:text-slate-400">
               <div className="flex items-center gap-1.5">
                 <CheckCircle className="w-4 h-4 text-success" />
-                <span>Thousands of Practice Questions</span>
+                <span>Hundreds of Practice Questions</span>
               </div>
               <div className="flex items-center gap-1.5">
                 <CheckCircle className="w-4 h-4 text-success" />

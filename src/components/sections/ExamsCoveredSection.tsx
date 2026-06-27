@@ -13,7 +13,8 @@ const exams = [
     pyq: 'Mixed',
     pattern: 'Prelims (New Pattern)',
     isPopular: true,
-    isAvailable: true
+    isAvailable: true,
+    link: '/exams/apsc-cce'
   },
   {
     name: 'Assam Direct Recruitment (ADRE)',
@@ -22,7 +23,8 @@ const exams = [
     pyq: 'Available',
     pattern: 'Grade III & Grade IV',
     isPopular: false,
-    isAvailable: false
+    isAvailable: false,
+    link: '/exams/adre'
   },
   {
     name: 'Assam Police',
@@ -31,7 +33,8 @@ const exams = [
     pyq: 'Available',
     pattern: 'SI, Constable & Commando',
     isPopular: false,
-    isAvailable: false
+    isAvailable: false,
+    link: '/exams/assam-police'
   },
   {
     name: 'Assam TET',
@@ -40,7 +43,8 @@ const exams = [
     pyq: 'Available',
     pattern: 'LP & UP Sections',
     isPopular: false,
-    isAvailable: false
+    isAvailable: false,
+    link: '/exams/assam-tet'
   },
   {
     name: 'Assam Secretariat',
@@ -49,7 +53,8 @@ const exams = [
     pyq: 'Available',
     pattern: 'Computer Operator & Assistant',
     isPopular: false,
-    isAvailable: false
+    isAvailable: false,
+    link: '/exams/assam-secretariat'
   },
   {
     name: 'Assam Judiciary',
@@ -58,7 +63,8 @@ const exams = [
     pyq: 'Available',
     pattern: 'Grade III',
     isPopular: false,
-    isAvailable: false
+    isAvailable: false,
+    link: '/exams/assam-judiciary'
   }
 ];
 
@@ -118,9 +124,15 @@ export function ExamsCoveredSection() {
                 </div>
               </CardContent>
               <CardFooter>
-                <Button href="/" className="w-full group-hover:bg-primary-hover transition-colors">
-                  Explore Test Series
-                </Button>
+                {exam.isAvailable ? (
+                  <Button href={exam.link} className="w-full group-hover:bg-primary-hover transition-colors">
+                    Explore Test Series
+                  </Button>
+                ) : (
+                  <Button disabled variant="secondary" className="w-full text-muted-foreground bg-muted hover:bg-muted cursor-not-allowed">
+                    Coming Soon
+                  </Button>
+                )}
               </CardFooter>
             </Card>
           ))}
