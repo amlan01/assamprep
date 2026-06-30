@@ -22,7 +22,7 @@ export function CTABannerSection() {
           </p>
           
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Button href="/#" size="lg" className="bg-white text-primary hover:bg-slate-100 text-lg px-8 shadow-xl shadow-black/20 w-full sm:w-auto">
+            <Button href="https://apsc.assamprep.com/tests" size="lg" className="bg-white text-primary hover:bg-slate-100 text-lg px-8 shadow-xl shadow-black/20 w-full sm:w-auto">
               Start Free Mock Test
             </Button>
             {/* <Button href="/#" size="lg" variant="outline" className="border-white/30 text-white hover:bg-white/10 text-lg px-8 gap-2 w-full sm:w-auto">

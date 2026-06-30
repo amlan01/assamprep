@@ -52,7 +52,7 @@ export function HeroSection() {
             </p>
             
             <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4">
-              <Button href="/#" size="lg" className="w-full sm:w-auto text-lg px-8 shadow-lg shadow-primary/30">
+              <Button href="https://apsc.assamprep.com/tests" size="lg" className="w-full sm:w-auto text-lg px-8 shadow-lg shadow-primary/30">
                 Start Free Mock Test
               </Button>
               <Button href="/exams" size="lg" variant="outline" className="w-full sm:w-auto text-lg px-8 gap-2 group">

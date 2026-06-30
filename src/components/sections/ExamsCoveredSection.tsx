@@ -14,7 +14,7 @@ const exams = [
     pattern: 'Prelims (New Pattern)',
     isPopular: true,
     isAvailable: true,
-    link: '/exams/apsc-cce'
+    link: 'https://apsc.assamprep.com/tests'
   },
   {
     name: 'Assam Direct Recruitment (ADRE)',

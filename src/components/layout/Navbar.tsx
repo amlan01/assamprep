@@ -36,7 +36,7 @@ export function Navbar() {
 
             <div className="flex items-center gap-4">
               {/* <Button href="/#" variant="ghost" className="hidden lg:flex text-sm font-medium">Log in</Button> */}
-              <Button href="/#" className="bg-primary text-white hover:bg-primary-hover shadow-md shadow-primary/20">
+              <Button href="https://apsc.assamprep.com/tests" className="bg-primary text-white hover:bg-primary-hover shadow-md shadow-primary/20">
                 Start Free Mock Test
               </Button>
             </div>
